@@ -1,18 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ///Tasks:
 //1. Add in nessisary imports and values to establish the testing suite.
 //2. Test that the Display component renders without any passed in props.
