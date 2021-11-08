@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import Display from './components/Display'
 
@@ -18,7 +18,7 @@ export default function App() {
         </a>
       </nav>
       <div className='App'>
-        <Display displayFun={displayFunc} />
+        <Display displayFunc={displayFunc} />
       </div>
     </div>
   )

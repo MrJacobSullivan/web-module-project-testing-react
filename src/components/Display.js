@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-import Loading from './Loading'
 import Show from './Show'
 
 import fetchShow from '../api/fetchShow'
@@ -15,7 +14,7 @@ const Display = (props) => {
       setShow(data)
 
       if (displayFunc) {
-        displayFunc()
+        displayFunc(data)
       }
     })
   }
