@@ -4,11 +4,11 @@ import userEvent from '@testing-library/user-event'
 
 import Show from './../Show'
 
-const testShow = {
-  //add in approprate test data structure here.
-}
+const testShow = { name: '', summary: '', seasons: [] }
 
-test('renders testShow and no selected Season without errors', () => {})
+test('renders testShow and no selected Season without errors', () => {
+  render(<Show show={testShow} selectedSeason='none' />)
+})
 
 test('renders Loading component when prop show is null', () => {})
 
